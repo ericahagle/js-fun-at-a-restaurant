@@ -93,11 +93,15 @@ console.log(fruits[4]);
 
 //------------------------- Objects -------------------------//
 
-// Create a new variable called "groceryStore" and assign to it an object literal with two
-// keys: name, and isOpen. The value for name should the string 'King Soopers' (or your favorite grocery store), and
-// the value for isOpen should be true. Which other key value pairs would make sense to add to this object?
+// Create a new variable called "groceryStore" and assign to it an object literal with two keys: name, and isOpen. The value for name should the string 'King Soopers' (or your favorite grocery store), and the value for isOpen should be true. Which other key value pairs would make sense to add to this object?
+var groceryStore = {
+    name: "King Soopers",
+    isOpen: true
+};
+console.log(groceryStore);
 
+    // We could also add location, store hours, parking availability, etc.
 
-
-// Write the code to add the key of location, with the value of 'Denver, Colorado'. Use dot
-// notation to do this. DO NOT modify your code from above.
+// Write the code to add the key of location, with the value of 'Denver, Colorado'. Use dot notation to do this. DO NOT modify your code from above.
+groceryStore.location = "Denver, Colorado";
+console.log(groceryStore);
